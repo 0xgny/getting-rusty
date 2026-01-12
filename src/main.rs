@@ -8,7 +8,7 @@ async fn main() {
 
     let listener = tokio::net::TcpListener::bind("0.0.0.0:8080").await.unwrap();
 
-    println!("Server is running on http://0.0.0.0:8080 bitch!!");
+    println!("Server is running on http://0.0.0.0:8080. Success!!");
     axum::serve(listener, app).await.unwrap();
 }
 
