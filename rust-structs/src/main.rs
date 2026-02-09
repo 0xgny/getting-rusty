@@ -1,3 +1,4 @@
+// chapter 5
 struct Soldier {
     name: String,
     health: isize,
@@ -41,5 +42,8 @@ fn main() {
     println!("Fight: {} vs {}", adam.get_name(), sabrina.get_name());
     println!("Is adam able to beat sabrina? {}", can_adam_beat_sabrina);
     println!("Is sabrina able to beat adam? {}", can_sabrina_beat_adam);
-    println!("Is sabrina able to beat sabrina? {}", can_sabrina_beat_sabrina);
+    println!(
+        "Is sabrina able to beat sabrina? {}",
+        can_sabrina_beat_sabrina
+    );
 }
